@@ -1,26 +1,26 @@
 // Simple subduction zone geometry, uniform elastic properties, one rectangular fault
 
 // Characteristic lengths for meshing
-// 780 nodes, 4800 elements
+//
 lc_vol = 1e5;        // volume characteristic size
 lc_meg = 5e4;        // megathrust characteristic size
 lc_flt = 4e4;        // fault segment characteristic size
-// 3100 nodes, 19000 elements
-lc_vol = 5e4;        // volume characteristic size
-lc_meg = 2.5e4;        // megathrust characteristic size
-lc_flt = 2.5e4;        // fault segment characteristic size
-//  nodes,  elements
-// lc_vol = 3e4;        // volume characteristic size
-// lc_meg = 1e4;        // megathrust characteristic size
-// lc_flt = 1e4;        // fault segment characteristic size
-// 7700 nodes, 38000 elements
-lc_vol = 4e4;        // volume characteristic size
-lc_meg = 1.25e4;        // megathrust characteristic size
-lc_flt = 5e3;        // fault segment characteristic size
-// X nodes, Y elements
-lc_vol = 2.5e4;        // volume characteristic size
+// //
+// lc_vol = 5e4;        // volume characteristic size
+// lc_meg = 2.5e4;        // megathrust characteristic size
+// lc_flt = 2.5e4;        // fault segment characteristic size
+// //
+// // lc_vol = 3e4;        // volume characteristic size
+// // lc_meg = 1e4;        // megathrust characteristic size
+// // lc_flt = 1e4;        // fault segment characteristic size
+// //
+// lc_vol = 4e4;        // volume characteristic size
+// lc_meg = 1.25e4;        // megathrust characteristic size
+// lc_flt = 5e3;        // fault segment characteristic size
+// //
+lc_vol = 2.0e4;        // volume characteristic size
 lc_meg = 1e4;        // megathrust characteristic size
-lc_flt = 4e3;        // fault segment characteristic size
+lc_flt = 2.5e3;        // fault segment characteristic size
 
 // Geometric parameters of subduction zone
 d2r = 0.017453;                     // degrees to radians

@@ -42,14 +42,6 @@ set it 19
 di flt_slip_eq.dat slippery
 EOF
 
-## Slippery displacements on plate interface
-#getNodes.sh ${MSH_FILE} --gtecton-bin-dir=${GTECTON_BIN_DIR} -l 26  > j.tmp
-#getNodes.sh ${MSH_FILE} --gtecton-bin-dir=${GTECTON_BIN_DIR} -l 27 >> j.tmp
-#sort -nuk1 j.tmp |\
-#    awk '{
-#        print "di flt_slip_"$1".tmp slippery"
-#    }' >> extract.s
-
 echo "q!" >> extract.s
 
 

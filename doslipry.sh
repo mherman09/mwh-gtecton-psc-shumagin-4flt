@@ -47,13 +47,15 @@ NOTHR=0
 # >0: Winkler forces applied at step (STEP-1)
 # <0: Winkler forces applied until step ABS(STEP)
 LOCK_STEP="0"
-UNLK_STEP_27="-10"
+UNLK_STEP_27="-10" # Earthquake in central Chignik patch
+# UNLK_STEP_27="1" # Keep central Chignik patch locked
 UNLK_STEP_30=0 # Unlocked Shumagin Gap
-#UNLK_STEP_30=-100 # Locked Shumagin Gap
+# UNLK_STEP_30=1 # Locked Shumagin Gap
 UNLK_STEP_31="-100" # Locked eastern 1938 asperity
 UNLK_STEP_32=0 # Unlocked updip asperity
-UNLK_STEP_32=-100 # Locked updip asperity
-UNLK_STEP_32=10 # Updip only locked coseismically
+# UNLK_STEP_32=-100 # Locked updip asperity
+# UNLK_STEP_32=10 # Updip only locked coseismically
+# UNLK_STEP_32=-10 # Updip ruptured coseismically
 MGT_WNK="1e20"
 FLT_WNK="1e20"
 
